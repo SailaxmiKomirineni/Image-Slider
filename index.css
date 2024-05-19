@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width:100%;
+    overflow: hidden;
+}
+.image_container{
+    height: 100vh;
+    width:400%;
+    display: flex;
+    transition:.4s all;
+}
+.image_container img{
+    height: 100vh;
+    width:100%;
+    position: relative;
+}
+.icon_container{
+    position: absolute;
+    background-color: rgb(197, 182, 160);
+    width:80px;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.navigation_left{
+    top:50%;
+    left:10px;
+}
+.navigation_right{
+    top:50%;
+    right:10px;
+}
